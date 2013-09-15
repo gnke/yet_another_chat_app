@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var port = 3789;
+var port = 1337;
 
 app.set('views', __dirname + '/templates');
 app.set('view engine', "jade");

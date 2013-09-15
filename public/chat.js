@@ -1,6 +1,6 @@
 $(document).ready(function() {
     var messages = [];
-    var socket = io.connect('http://localhost:3789');
+    var socket = io.connect('http://192.241.186.57:1337');
     var field = document.getElementById("message");
     var sendButton = document.getElementById("send");
     var content = document.getElementById("content");
