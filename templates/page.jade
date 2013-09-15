@@ -5,7 +5,7 @@ html
         script(src='/chat.js')
         script(src='/socket.io/socket.io.js')
     body
-        #content(style='width: 800px; height: 500px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
+        #content(id='messages', style='width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
         .controls
-            input.field(style='width:350px;')
-            input.send(type='button', value='send')
+            input.field(id='message', style='width:350px;')
+            input.send(id='send', type='button', value='send')
