@@ -2,10 +2,15 @@
 html
     head
         title= "Simple web chat"
+        script(type='text/javascript', src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js')
         script(src='/chat.js')
         script(src='/socket.io/socket.io.js')
+
     body
-        #content(id='messages', style='width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
+        #content(style='width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
         .controls
-            input.field(id='message', style='width:350px;')
-            input.send(id='send', type='button', value='send')
+            | Name: 
+            input#name(style='width:150px;')
+            br
+            input#message(style='width:300px;')
+            input#send(type='button', value='send')
