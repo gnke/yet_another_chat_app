@@ -1,0 +1,11 @@
+{
+  "name": "GChat",
+  "version": "0.0.1",
+    "description": "Simple web chat",
+    "dependencies": {
+        "socket.io": "latest",
+        "express": "latest",
+        "jade": "latest"
+    },
+    "author": "gerald"
+}
