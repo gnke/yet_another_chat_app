@@ -1,5 +1,5 @@
 {
-  "name": "GChat",
+  "name": "Chat",
   "version": "0.0.1",
     "description": "Simple web chat",
     "dependencies": {
